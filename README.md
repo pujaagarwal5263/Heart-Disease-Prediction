@@ -35,11 +35,11 @@ The following are the features we'll use to predict our target variable (heart d
 6. fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)",
    <br/> '>126' mg/dL signals diabetes,
 7. restecg - resting electrocardiographic results,
-   <ul>
+   <ol>
    <li>0: Nothing to note, </li> 
    <li>1: ST-T Wave abnormality: can range from mild symptoms to severe problems and signals,  non-normal heart beat,  </li>
   <li>2: Possible or definite left ventricular hypertrophy, Enlarged heart's main pumping chamber</li>
-   </ul>
+   </ol>
 8. thalach - maximum heart rate achieved,
 <br/>
 9. exang - exercise induced angina (1 = yes; 0 = no),
