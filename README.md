@@ -38,10 +38,12 @@ The following are the features we'll use to predict our target variable (heart d
    <ul>
    <li>0: Nothing to note, </li> 
    <li>1: ST-T Wave abnormality: can range from mild symptoms to severe problems and signals,  non-normal heart beat,  </li>
-  <li> 2: Possible or definite left ventricular hypertrophy, Enlarged heart's main pumping chamber, </li>
+  <li>2: Possible or definite left ventricular hypertrophy, Enlarged heart's main pumping chamber</li>
    </ul>
 8. thalach - maximum heart rate achieved,
+<br/>
 9. exang - exercise induced angina (1 = yes; 0 = no),
+<br/>
 10. oldpeak - ST depression induced by exercise relative to rest,
 <ul>
     <li> looks at stress of heart during excercise, </li>
