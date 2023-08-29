@@ -14,6 +14,9 @@ python app.py
 }
 ```
 
+# URL to be hit on
+Once the app is up and running the hit this endpoint with above payload: <strong>http://localhost:5000/predict</strong>
+
 The following are the features we'll use to predict our target variable (heart disease or no heart disease)
 1. age - age in years,
 2. sex - (1 = male; 0 = female),
@@ -66,4 +69,4 @@ The following are the features we'll use to predict our target variable (heart d
    <li> 7: reversable defect: no proper blood movement when excercising, </li>
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
-<strong>Note: No personal identifiable information (PPI) can be found in the dataset   </strong>
+**Note: No personal identifiable information (PPI) can be found in the dataset**
