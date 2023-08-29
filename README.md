@@ -43,7 +43,9 @@ The following are the features we'll use to predict our target variable (heart d
           <li>   - signals non-normal heart beat, </li> 
       </ul>
   <li> 2: Possible or definite left ventricular hypertrophy,</li> 
-       <br/>   - Enlarged heart's main pumping chamber,
+  <ul>
+     <li> - Enlarged heart's main pumping chamber,</li>
+      </ul>
    </ul>
 8. thalach - maximum heart rate achieved,
 9. exang - exercise induced angina (1 = yes; 0 = no),
