@@ -17,6 +17,7 @@ python app.py
 # URL to be hit on
 Once the app is up and running the hit this endpoint with above payload: <strong>http://localhost:5000/predict</strong>
 
+# Data Dictionary 
 The following are the features we'll use to predict our target variable (heart disease or no heart disease)
 1. age - age in years,
 2. sex - (1 = male; 0 = female),
