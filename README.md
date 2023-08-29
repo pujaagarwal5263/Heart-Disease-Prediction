@@ -1,6 +1,19 @@
 # Heart-Disease-Prediction
 > Heart disease prediction model made with sci-kit learn.
 
+# How to run the app?
+Setup your virtual environment and run the following command:
+```
+python app.py
+```
+
+# What is the payload to be sent?
+```
+{
+    "features":[[57,0,0,140,241,0,1,123,1,0.2,1,0,3]]
+}
+```
+
 The following are the features we'll use to predict our target variable (heart disease or no heart disease)
 1. age - age in years,
 2. sex - (1 = male; 0 = female),
@@ -51,6 +64,6 @@ The following are the features we'll use to predict our target variable (heart d
     <li> 1,3: normal, </li>
     <li> 6: fixed defect: used to be defect but ok now, </li>
    <li> 7: reversable defect: no proper blood movement when excercising, </li>
-14. target - have disease or not (1=yes, 0=no) (= the predicted attribute),
+14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
-    <strong>**Note:** No personal identifiable information (PPI) can be found in the dataset   </strong>
+<strong>Note: No personal identifiable information (PPI) can be found in the dataset   </strong>
