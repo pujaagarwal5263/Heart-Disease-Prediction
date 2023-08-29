@@ -37,11 +37,8 @@ The following are the features we'll use to predict our target variable (heart d
 7. restecg - resting electrocardiographic results,
    <ul>
    <li>0: Nothing to note, </li> 
-      <li>1: ST-T Wave abnormality,</li> 
-       <br/>    - can range from mild symptoms to severe problems, 
-        <br/>   - signals non-normal heart beat, 
-  <li> 2: Possible or definite left ventricular hypertrophy,
-     <br/> - Enlarged heart's main pumping chamber,
+   <li>1: ST-T Wave abnormality: can range from mild symptoms to severe problems and signals,  non-normal heart beat,  </li>
+  <li> 2: Possible or definite left ventricular hypertrophy, Enlarged heart's main pumping chamber, </li>
    </ul>
 8. thalach - maximum heart rate achieved,
 9. exang - exercise induced angina (1 = yes; 0 = no),
@@ -49,7 +46,7 @@ The following are the features we'll use to predict our target variable (heart d
 <ul>
     <li> looks at stress of heart during excercise, </li>
     <li> unhealthy heart will stress more, </li>
-   </ul>
+</ul>
 11. slope - the slope of the peak exercise ST segment,
 <ul>
     <li> 0: Upsloping: better heart rate with excercise (uncommon), </li>
@@ -62,9 +59,11 @@ The following are the features we'll use to predict our target variable (heart d
      <li> the more blood movement the better (no clots), </li>
     </ul>
 13. thal - thalium stress result,
+<ul>
     <li> 1,3: normal, </li>
     <li> 6: fixed defect: used to be defect but ok now, </li>
    <li> 7: reversable defect: no proper blood movement when excercising, </li>
+</ul>
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
 **Note: No personal identifiable information (PPI) can be found in the dataset**
