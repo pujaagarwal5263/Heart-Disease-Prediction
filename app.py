@@ -1,9 +1,10 @@
-# heart_disease_predictor/app.py
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import the CORS class
 import joblib
 import pandas as pd
 
 app = Flask(__name__)
+CORS(app, resources={r"/predict": {"origins": "http://localhost:3000"}})  # Allow requests from localhost:3000
 
 # Load your trained machine learning model
 model = joblib.load('./heart_disease_pred.pkl')
@@ -23,7 +24,7 @@ def predict():
     # Return the prediction as JSON response
     response = {'prediction': prediction.tolist()}
     output = response["prediction"][0]
-    return jsonify(response) 
+    return jsonify(response)
 
 if __name__ == '__main__':
     app.run(debug=True)
