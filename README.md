@@ -17,6 +17,7 @@ python app.py
 # URL to be hit on
 Once the app is up and running the hit this endpoint with above payload: <strong>http://localhost:5000/predict</strong>
 
+# Data Dictionary 
 The following are the features we'll use to predict our target variable (heart disease or no heart disease)
 1. age - age in years,
 2. sex - (1 = male; 0 = female),
@@ -44,7 +45,7 @@ The following are the features we'll use to predict our target variable (heart d
 <br/>
 9. exang - exercise induced angina (1 = yes; 0 = no),
 <br/>
-10. oldpeak - ST depression induced by exercise relative to rest,
+10. oldpeak - ST depression induced by exercise relative to rest, in rangr 0.0 to 4.0
 <ul>
     <li> looks at stress of heart during excercise, </li>
     <li> unhealthy heart will stress more, </li>
@@ -55,12 +56,12 @@ The following are the features we'll use to predict our target variable (heart d
       <li> 1: Flatsloping: minimal change (typical healthy heart), </li>
      <li> 2: Downslopins: signs of unhealthy heart, </li>
 </ul>
-12. ca - number of major vessels (0-3) colored by flourosopy,
+12. ca - number of major vessels (values 0-3) colored by flourosopy,
 <ul>
     <li>colored vessel means the doctor can see the blood passing through,</li>
      <li> the more blood movement the better (no clots), </li>
     </ul>
-13. thal - thalium stress result,
+13. thal - thalium stress result, values(1,2,3)
 <ul>
     <li> 1,3: normal, </li>
     <li> 6: fixed defect: used to be defect but ok now, </li>
