@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app, resources={r"/predict": {"origins": "http://localhost:3000"}})  # Allow requests from localhost:3000
+CORS(app, resources={r"/predict": {"origins": "https://cardio-care-frontend.vercel.app"}})  # Allow requests from localhost:3000
 
 # Load your trained machine learning model
 model = joblib.load('./heart_disease_pred.pkl')
